@@ -1,4 +1,1 @@
-tr125,c120,Open top,20.0,2.8,3.2
-tr125,c125,Dry storage,20.0,3.5,4.6
-tr125,c126,Dry storage,20.0,3.5,4.6
-tr125,c127,Dry storage,20.0,3.5,4.6
+
