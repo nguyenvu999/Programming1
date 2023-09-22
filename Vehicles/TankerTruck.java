@@ -1,0 +1,21 @@
+package Vehicles;
+import Containers.Liquid;
+import Containers.Containers;
+import Port.*;
+import java.util.List;
+
+public class TankerTruck extends Vehicles{
+    public TankerTruck(String name, String uniqueID, String vehicleType, double currentFuel, double carryingCapacity, double currentCarryingCapacity, double fuelCapacity, List<Containers> containersList, Port currentPort){
+        super(name, "tr" + uniqueID,"Tanker Truck", currentFuel, carryingCapacity,currentCarryingCapacity, fuelCapacity, containersList, currentPort);
+    }
+
+    @Override
+    public boolean canAddContainers(Containers containers) {
+        if(containers.getClass() == Liquid.class){
+            return true;
+        } else {
+            System.out.println("Container type invalid");
+            return false;
+        }
+    }
+}
