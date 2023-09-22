@@ -1,5 +1,2 @@
-p124,c121,Dry storage,20.0,3.5,4.6
-p124,c122,Dry storage,20.0,3.5,4.6
-p124,c123,Dry storage,20.0,3.5,4.6
-p124,c124,Dry storage,20.0,3.5,4.6
+
 
